@@ -15,6 +15,7 @@ http.createServer(function(req,res){ //通过回调的方式创建服务
 	//响应结束
 	res.end('第一个HTTP服务器');
 }).listen(1337,"127.0.0.1");
+
 //打印日志
 console.log("Server running at http://127.0.0.1:1337");
 console.error("this is conole.error method");
